@@ -4,23 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        Math Racer
-    </title>
-    <link rel="stylesheet" href="math_game.css">
+    <title>Math Racer</title>
+    <!-- Google Font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+<!-- Stylesheet -->
+    <link rel="stylesheet" href="math_game.css" />
 </head>
 
 <body>
     <div class="container">
-        <div class="question">
-            <span id="number1"></span>
-            <span id="operator"></span>
-            <span id="number2"></span>
-        </div>
+      <h3>Fill In The Blank With Correct Number Or Operator</h3>
+      <div id="question"></div>
+      <p id="error-msg">Some Demo Error Message</p>
+      
     </div>
-    
+    <div class="controls-container">
+      <p id="result"></p>
+      <button id="start-btn">Start Game</button>
+    </div>
+    <!-- Script -->
     <script src="math_game.js"></script>
-</body>
+  </body>
 
 </html>
 
